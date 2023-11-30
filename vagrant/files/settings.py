@@ -13,7 +13,7 @@ DATABASES = {
 
 STATIC_ROOT = '/home/decide/static/'
 MEDIA_ROOT = '/home/decide/static/media/'
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','https://localhost:8080', 'http://localhost:8080']
 
 # Modules in use, commented modules that you won't use
 MODULES = [
